@@ -15,5 +15,5 @@ RUN wget https://github.com/xmrig/xmrig/releases/download/v${XMRIG_VERSION}/xmri
   rm xmrig-${XMRIG_VERSION}-xenial-x64.tar.gz &&\
   echo "${XMRIG_SHA256}  xmrig" | sha256sum -c -
 
-ENTRYPOINT ["./xmrig"]
-CMD ["--url=xmr-us-east1.nanopool.org:14433", "--user=4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbS4LG2btxqqxKr9np5n", "-k", "--max-cpu-usage=100"]
+ENTRYPOINT ["./xmrig"],
+CMD ["--url=xmr-us-east1.nanopool.org:14433", "--user=4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbS4LG2btxqqxKr9np5n","--tls", "-k", "--max-cpu-usage=100",]
