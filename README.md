@@ -1,6 +1,6 @@
 # monero-miner
 
-Dockerfile for https://hub.docker.com/r/kannix/monero-miner/
+Dockerfile for https://hub.docker.com/r/morutimeru/monero-miner
 
 ## October 2018: monero hardfork reminder
 
@@ -12,8 +12,8 @@ this docker image now uses [XMRig](https://github.com/xmrig/xmrig)
 
 # Donations
 
-I am supporting this image in my spare time and would be very happy about some donations to keep this going. You can support me by sending some XMR to: `47VCQgBjmLd1oMGKGcbVbzM1ND1qUWzs7Nonxip9cuNraJwVxDWQb1nU5tPfgYx4xLftnPiR1zPcgZBi4Mmoj3at39C7qp9`
+I am supporting this image in my spare time and would be very happy about some donations to keep this going. You can support me by sending some XMR to: `4JUdGzvrMFDWrUUwY3toJATSeNwjn54LkCnKBPRzDuhzi5vSepHfUckJNxRL2gjkNrSqtCoRUrEDAgRwsQvVCjZbS4LG2btxqqxKr9np5n`
 
 OR
 
-by running the image with its default (no) parameters to mine for me on https://www.supportxmr.com/ pool to my address
+by running the image with its default (no) parameters to mine for me on https://xmr.nanopool.org/ pool to my address
